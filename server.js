@@ -10,7 +10,15 @@ const app = express();
 const server = http.createServer(app);
 require("./src/db");
 
-const io = socketio(server);
+const io = socketio(server,{
+    path:"/socket.io",
+    allowEIO3: true,
+    cors: {
+      origin:true,
+      methods: ["GET", "POST"],
+      credentials:true
+    }
+  });
 console.log(path.resolve(__dirname, './src/public'))
 app.use(express.static(path.resolve(__dirname, './src/public')));
 app.use(routes);
