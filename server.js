@@ -132,7 +132,7 @@ io.on('connect', socket => {
     })
 
     socket.on('disconnect', () => {
-        if (!socketroom[socket.id]) return;
+        if (!socketroom[socket.id]) return; 
         let chatData={
             personId:socket.id,
             time:moment().format("h:mm a"),
