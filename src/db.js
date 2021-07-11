@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 mongoose
-  .connect(process.env.MONGODB_URL, {
+  .connect("mongodb+srv://project783897:Project%40123@cluster0.k8eg9.mongodb.net/test", {
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: true,

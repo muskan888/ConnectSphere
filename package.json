@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "env-cmd --file .env node server.js",
+    "start": "node server.js",
     "dev": "env-cmd --file .env nodemon server.js"
   },
   "keywords": [],
