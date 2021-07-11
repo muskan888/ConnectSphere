@@ -156,8 +156,13 @@ navbar .logo {
 .main .video-cont .video-self {
   height: 400px;
   width: 100%;
-  background-color: rgb(58, 62, 63);
-  border-radius: 10px;
+  background-image: url("https://cdn.icon-icons.com/icons2/1674/PNG/512/videooff_110953.png" );
+  background-position-x: center;
+  background-color: #81818a;
+  background-position-y: center;
+background-size: 5cm;
+background-repeat: no-repeat;
+  border-radius: 15px;
   object-fit: cover;
 }
 .main .video-cont .settings {
@@ -215,7 +220,7 @@ navbar .logo {
   right: 0;
   height: 100%;
   width: 100%;
-  background-color: #393e46;
+  background-color: #464775;
 }
 .overlay .box {
   width: 25%;
@@ -272,7 +277,7 @@ background-color: #464775;
   top: 0;
   bottom: 0;
   display: flex;
-  background-color: #ecf0f1;
+  background-color: #464775;
   /* Track */
   /* Handle */
   /* Handle on hover */
@@ -695,7 +700,7 @@ background-color: #464775;
 }
 .container-room .right-cont .head-title .chats:hover,
 .container-room .right-cont .head-title .attendies:hover {
-  background-color: #f8f8f8;
+  background-color:white;
   cursor: pointer;
 }
 .container-room .right-cont .chat-cont {
@@ -708,7 +713,7 @@ background-color: #464775;
 .container-room .right-cont .chat-cont .message {
   margin-bottom: 15px;
   margin-left: 10px;
-  background-color: #ffffff;
+  background-color: white;
   border-radius: 2px;
   word-break: break-all;
   word-wrap: break-word;
