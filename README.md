@@ -1,5 +1,17 @@
 # project783897
 
+<b>TO SET UP ON LOCALHOST: <b>
+
+1. Download source code
+2. Unzip the folder
+3. Right click inside the folder.
+4. Click on 'Git Bash Here'
+5. write 'npm run dev'
+6. The project will run on port 4000.
+
+
+
+
 AGILE METHODOLOGY: SCRUM METHODOLOGY
 PRODUCT BACKLOG
 1. Front-End: Initially, I planned the structure of frontend of Microsoft Team’s clone.
