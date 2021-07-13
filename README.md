@@ -6,8 +6,9 @@
 2. Unzip the folder
 3. Right click inside the folder.
 4. Click on 'Git Bash Here'
-5. write 'npm run dev'
-6. The project will run on port 4000.
+5. Run npm install.
+6. After that, run 'npm run dev'
+7. The project will run on port 4000.
 
 
 
