@@ -6,13 +6,13 @@ PRODUCT BACKLOG
 I decided to implement it a bit differently than the current teams.
 
 2. Video calling: As the initial requirement was to build system where at least 2 people can connect.
-It included building,testing,planning and revealing.
+   It included building,testing,planning and revealing.
 
-3.Screen sharing & Whiteboard: As screen sharing is mandatory for almost all the meetings.
-I decided to build that.White board can be used as an easy way to take notes/present pictorial data.
+3. Screen sharing & Whiteboard: As screen sharing is mandatory for almost all the meetings.
+  I decided to build that.White board can be used as an easy way to take notes/present pictorial data.
 
-4.Chat: Earlier, I decided to build chat which does not gets saved and only takes place during the video call.
-After the ‘adapt’ feature was revealed, I built chat which gets saved an can occur before/after meetings
+4.  Chat: Earlier, I decided to build chat which does not gets saved and only takes place during the video call.
+   After the ‘adapt’ feature was revealed, I built chat which gets saved an can occur before/after meetings
 
 
 PROCESS:
