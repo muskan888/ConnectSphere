@@ -1,4 +1,6 @@
-#Connect_sphere
+#Connect Sphere
+
+
 <b>TO SET UP ON LOCALHOST: <b>
 
 1. Download source code
