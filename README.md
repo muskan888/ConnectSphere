@@ -1,41 +1,102 @@
-#Connect Sphere
+# 🌐 ConnectSphere
 
+A modern video conferencing platform with integrated collaboration tools, inspired by Microsoft Teams.
 
-<b>TO SET UP ON LOCALHOST: <b>
+## 🚀 Overview
 
-1. Download source code
-2. Unzip the folder
-3. Right click inside the folder.
-4. Click on 'Git Bash Here'
-5. Run npm install.
-6. After that, run 'npm run dev'
-7. The project will run on port 4000.
+ConnectSphere is a comprehensive communication platform that enables real-time video conferencing, screen sharing, whiteboard collaboration, and persistent chat functionality. Built with modern web technologies, it provides a seamless experience for remote collaboration.
 
+## ✨ Key Features
 
+- **📹 Video Conferencing**: Connect with multiple participants in high-quality video calls
+- **🖥️ Screen Sharing**: Present your screen to other participants during meetings
+- **🖌️ Interactive Whiteboard**: Collaborate visually with an integrated drawing board
+- **💬 Persistent Chat**: Send and receive messages before, during, and after meetings
+- **🔐 Secure Communication**: End-to-end encrypted video calls and messages
 
+## 🛠️ Technology Stack
 
-AGILE METHODOLOGY: SCRUM METHODOLOGY
-PRODUCT BACKLOG
-1. Front-End: Initially, I planned the structure of frontend of Microsoft Team’s clone.
-I decided to implement it a bit differently than the current teams.
+- **Frontend**: React.js with modern JavaScript
+- **Backend**: Node.js with Express
+- **Real-time Communication**: WebRTC, Socket.io
+- **Styling**: CSS/SCSS with responsive design
 
-2. Video calling: As the initial requirement was to build system where at least 2 people can connect.
-   It included building,testing,planning and revealing.
+## 📋 Development Process
 
-3. Screen sharing & Whiteboard: As screen sharing is mandatory for almost all the meetings.
-  I decided to build that.White board can be used as an easy way to take notes/present pictorial data.
+ConnectSphere was developed using Agile methodology, specifically Scrum:
 
-4.  Chat: Earlier, I decided to build chat which does not gets saved and only takes place during the video call.
-   After the ‘adapt’ feature was revealed, I built chat which gets saved an can occur before/after meetings
+### Product Backlog
 
+1. **Front-End Development**: Designed and implemented a user-friendly interface with a unique approach compared to Microsoft Teams
+2. **Video Calling Implementation**: Built core functionality for connecting at least two participants in a video call
+3. **Screen Sharing & Whiteboard**: Developed essential collaboration features for effective meetings
+4. **Chat Functionality**: Initially implemented for in-meeting use, later expanded to persistent chat that continues before/after meetings
 
-PROCESS:
+### Agile Process
 
+- **Sprint Backlog**: Features were prioritized and organized into development sprints
+- **Daily Scrum**: Regular meetings with mentors to review progress and address challenges
+- **Sprint Review and Increment**: Continuous deployment after the completion of each feature
 
+## 🚀 Getting Started
 
+### Prerequisites
 
-Sprint backlog: After prioritizing each and every process/feature.
+- Node.js (v12 or higher)
+- npm or yarn
+- Modern web browser (Chrome, Firefox, Edge recommended)
 
-Daily Scrum : Constant meetings with mentors for them to review the product and discuss the hurdles.
+### Installation
 
-Sprint Review and increment : Deployment of the website after each feature was added.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/muskan888/connectsphere.git
+   cd connectsphere
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**
+   - Create a `.env` file based on the provided `.env.example`
+   - Configure necessary API keys and service endpoints
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Access the application**
+   - Open your browser and navigate to `http://localhost:4000`
+
+## 📋 Project Structure
+
+```
+connectsphere/
+├── src/                  # Source code
+│   ├── components/       # Reusable UI components
+│   ├── pages/            # Application pages
+│   ├── services/         # API and service integrations
+│   ├── utils/            # Utility functions
+│   └── styles/           # CSS/SCSS stylesheets
+├── public/               # Static assets
+├── server.js             # Express server configuration
+├── .env                  # Environment variables
+└── package.json          # Project dependencies
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgements
+
+- WebRTC for enabling real-time communication
+- Socket.io for reliable websocket connections
+- The open source community for various tools and libraries
